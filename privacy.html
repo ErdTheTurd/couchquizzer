@@ -4,47 +4,42 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Privacy — Couchquizzer</title>
-  <meta name="description" content="Privacy outline for Couchquizzer, a party trivia game for Apple TV and iPhone that plays over local Wi-Fi.">
-  <link rel="canonical" href="https://couchquizzer.com/privacy.html">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="icon" href="favicon.ico" sizes="any">
-  <link rel="icon" type="image/png" href="favicon-32.png" sizes="32x32">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <meta name="theme-color" content="#0B0C16">
+  <meta name="description" content="Privacy outline for Couchquizzer, a party trivia game for Apple TV that plays over local Wi-Fi.">
+  <link rel="canonical" href="https://erdtheturd.github.io/couchquizzer/privacy.html">
+  <meta name="theme-color" content="#170f0d">
   <meta property="og:title" content="Privacy — Couchquizzer">
   <meta property="og:description" content="Privacy outline for Couchquizzer.">
-  <meta property="og:url" content="https://couchquizzer.com/privacy.html">
-  <meta property="og:image" content="https://couchquizzer.com/og.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <meta property="og:url" content="https://erdtheturd.github.io/couchquizzer/privacy.html">
+  <meta property="og:image" content="https://erdtheturd.github.io/couchquizzer/og.png">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
   <header class="site-header">
-    <div class="wrap">
-      <a class="logo" href="index.html">
-        <img src="assets/logo.svg" width="36" height="36" alt="">
-        Couchquizzer
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="./">
+        <img class="brand-mark" src="assets/favicon.svg" width="28" height="28" alt="">
+        <span>Couchquizzer</span>
       </a>
-      <nav class="site-nav" aria-label="Primary">
-        <a href="support.html">Support</a>
-        <a href="privacy.html" aria-current="page">Privacy</a>
-      </nav>
-    </div>
+      <ul class="nav-links">
+        <li><a href="./">Home</a></li>
+        <li><a href="privacy.html" aria-current="page">Privacy</a></li>
+        <li><a href="support.html">Support</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <main id="main" class="page wrap">
-    <a class="back" href="index.html">← Couchquizzer</a>
-    <article class="paper">
+  <main id="main" class="page">
+    <article class="page-narrow">
       <h1>Privacy</h1>
-      <p class="updated">Outline — last updated November 20, 2026. This page will be completed as the app ships.</p>
+      <p class="updated">Outline — last updated November 20, 2026. This page will be finished as the app ships.</p>
+      <p class="lede">Couchquizzer is a party trivia game for Apple TV. People in the same room join from their phones over the local Wi-Fi. There is no account to create, and the game is not designed to need a subscription or a central game server.</p>
 
-      <p>Couchquizzer is a party trivia game for Apple TV. The plan is for people in the same room to join from their phones over the local Wi-Fi network. There is no account to create, and the game is not designed to need a subscription or a central game server.</p>
-
-      <h2>What stays on your devices</h2>
-      <p>Room codes, answers, and scores are meant to stay on the Apple TV and the phones in the room — traffic on your local network, not a service we run in the cloud. We do not ask you to sign in.</p>
+      <h2>What stays in the room</h2>
+      <p>Room codes, answers, and scores are meant to stay on the Apple TV and the phones playing — traffic on your local network, not a service we run in the cloud. We do not ask you to sign in.</p>
 
       <h2>Local network</h2>
       <p>To let phones find and join a game, the Apple TV may advertise a room on the local network (for example, using Bonjour). That is only so nearby devices on the same Wi-Fi can connect to the host in the room. It is not used to build a location history or an account profile.</p>
@@ -64,12 +59,13 @@
   </main>
 
   <footer class="site-footer">
-    <div class="wrap inner">
-      <p>© 2026 Edward Dunn</p>
-      <nav class="site-nav" aria-label="Footer">
+    <div class="wrap footer-inner">
+      <p>&copy; 2026 Edward Dunn. Couchquizzer for Apple TV.</p>
+      <div class="footer-links">
         <a href="privacy.html">Privacy</a>
         <a href="support.html">Support</a>
-      </nav>
+        <a href="mailto:support@couchquizzer.com">support@couchquizzer.com</a>
+      </div>
     </div>
   </footer>
 </body>

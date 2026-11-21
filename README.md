@@ -1,5 +1,7 @@
 # Couchquizzer
 
-Marketing site for [Couchquizzer](https://couchquizzer.com), party trivia on Apple TV.
+Marketing site for Couchquizzer, party trivia on Apple TV.
 
-This repository is the static site (GitHub Pages). The app itself lives separately.
+The site is static and served from GitHub Pages at
+[erdtheturd.github.io/couchquizzer](https://erdtheturd.github.io/couchquizzer/).
+The app itself lives separately.
